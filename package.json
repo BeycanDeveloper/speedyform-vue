@@ -1,0 +1,53 @@
+{
+    "name": "speedyform",
+    "version": "0.1.0",
+    "main": "./dist/speedyform.common.js",
+    "description": "It speeds up your creation of very complex forms!",
+    "keywords": [
+        "form",
+        "builder",
+        "accordion",
+        "group",
+        "sortable"
+    ],
+    "authors": [
+        {
+            "name": "Halil Beycan",
+            "email": "halilbeycan0@gmail.com",
+            "url": "https://github.com/BeycanDeveloper"
+        }
+    ],
+    "files": [
+        "dist"
+    ],
+    "license": "LGPL-3.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BeycanDeveloper/speedyform.git"
+    },
+    "bugs": {
+        "url": "https://github.com/BeycanDeveloper/speedyform"
+    },
+    "homepage": "https://github.com/BeycanDeveloper/speedyform",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build --target lib --name speedyform ./src/install.js"
+    },
+    "dependencies": {
+        "axios": "^0.26.0",
+        "core-js": "^3.6.5",
+        "vue": "^3.0.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.15",
+        "@vue/cli-service": "~4.5.15",
+        "@vue/compiler-sfc": "^3.0.0",
+        "sass": "^1.26.5",
+        "sass-loader": "^8.0.2"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}
